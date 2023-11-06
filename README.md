@@ -1,64 +1,123 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/framework)
+[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/framework)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## About
 
-## About Laravel
+[# Laravel Hotel Booking
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The **Laravel Hotel Booking** project is a comprehensive web application designed to streamline the hotel booking process for both customers and hotel owners. It provides a user-friendly and feature-rich platform for users to browse, search, and book hotel rooms while offering hotel owners a convenient way to manage their properties.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Key Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **User Registration and Authentication:** Users can easily create accounts, log in, and manage their profiles securely.
 
-## Learning Laravel
+- **User and Hotel Owner Dashboards:** User-friendly dashboards for both customers and hotel owners provide quick access to essential functions.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Search and Browse Hotels:** Users can search for hotels based on various criteria such as location, price, and amenities, and browse through a list of available options.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **View Hotel Details:** Detailed hotel profiles provide comprehensive information about amenities, room types, prices, and user reviews.
 
-## Laravel Sponsors
+- **Book Rooms:** Users can book rooms with a simple and intuitive booking process.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- **Hotel and Room Management:** Hotel owners have tools to manage their property listings, room availability, and prices.
 
-### Premium Partners
+- **Admin Panel:** An admin panel enables administrators to manage users, hotels, and bookings efficiently.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- **Database for Storing User Data, Hotels, Rooms, and Bookings:** A robust database system securely stores and manages user data, hotel details, room information, and booking records.
 
-## Contributing
+- **Payment Processing:** Integration with payment gateways to facilitate secure and convenient transactions.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Reviews and Ratings:** Users can leave reviews and ratings, providing valuable feedback to hotel owners and other users.
 
-## Code of Conduct
+- **Real-time Notifications:** Real-time notifications for booking confirmation, updates, and alerts enhance the user experience.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **User Profile Management:** Users can update their profiles, preferences, and view their booking history.
 
-## Security Vulnerabilities
+- **Multi-language Support:** Support for multiple languages to cater to a diverse user base.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Advanced Search and Filtering:** Advanced search and filtering options make it easy to find the perfect hotel.
+
+- **Booking History:** Users can review their booking history and check the status of their reservations.
+
+- **Secure Authentication and Authorization:** Ensure user data is kept secure with robust authentication and authorization mechanisms.
+
+- **Responsive Design for Mobile and Desktop:** The application offers a responsive design that works seamlessly on both mobile and desktop devices.
+
+## Project Goal
+
+The Laravel Hotel Booking project aims to provide a convenient and enjoyable experience for both users and hotel owners in the hotel booking process. It's built on the Laravel framework, ensuring a robust and secure application. Whether you're a traveler looking for a comfortable stay or a hotel owner seeking a platform to manage your property effectively, this project aims to meet your needs.
+]
+
+# Laravel Hotel Booking Project
+
+This Laravel project is a hotel booking system that allows users to search, view, and book rooms in various hotels. Hotel owners can manage their properties, room availability, and view bookings.
+
+## Features
+
+- User Registration and Authentication
+- User and Hotel Owner Dashboards
+- Search and Browse Hotels
+- View Hotel Details
+- Book Rooms
+- Hotel and Room Management
+- Admin Panel
+- Database for Storing User Data, Hotels, Rooms, and Bookings
+- Payment Processing
+- Reviews and Ratings
+- Real-time Notifications
+- User Profile Management
+- Advanced Search and Filtering
+- Booking History
+- Secure Authentication and Authorization
+- Responsive Design for Mobile and Desktop
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/0xHemaSallam/Lararvel-Hotel-Booking.git
+2. **Install composer dependencies**:
+    ```bash
+    composer install
+2. **ICopy the .env.example file and configure your environment variables**:
+    ```bash
+    cp .env.example .env
+3. **Generate an application key:**:
+    ```bash
+    php artisan key:generate
+4. **Set up your database connection in the .env file.**:
+
+5. **Run migrations to create the necessary database table**:
+    ```bash
+    php artisan migrate
+6. **seed your database with sample data**:
+    ```bash
+    php artisan db:seed
+    
+7. **Serve the application**:
+    ```bash
+    php artisan serve
+## Usage
+
+To use the **Laravel Hotel Booking** project, follow these steps:
+
+1. Clone the repository to your web server.
+
+2. Customize the form fields and styling to match your website's design.
+
+3. Configure email settings to receive form submissions.
+
+4. Embed the booking platform on your website using the provided code.
+
+## Get Involved
+
+We encourage developers to contribute to the project and help enhance its functionality. You can get involved by forking the repository, making improvements, and submitting pull requests.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The **Laravel Hotel Booking** project is released under the [MIT License](https://www.ibrahim-sallam.me), allowing for both open-source and commercial use.
+
+Feel free to reach out with any questions or suggestions, and let's make hotel bookings more accessible and convenient together.
+
