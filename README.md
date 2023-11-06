@@ -5,7 +5,7 @@
 
 ## About
 
-[# Laravel Hotel Booking]
+#Laravel Hotel Booking
 
 The **Laravel Hotel Booking** project is a comprehensive web application designed to streamline the hotel booking process for both customers and hotel owners. It provides a user-friendly and feature-rich platform for users to browse, search, and book hotel rooms while offering hotel owners a convenient way to manage their properties.
 
