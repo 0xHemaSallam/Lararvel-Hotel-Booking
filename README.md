@@ -47,12 +47,8 @@ The **Laravel Hotel Booking** project is a comprehensive web application designe
 
 ## Project Goal
 
-The Laravel Hotel Booking project aims to provide a convenient and enjoyable experience for both users and hotel owners in the hotel booking process. It's built on the Laravel framework, ensuring a robust and secure application. Whether you're a traveler looking for a comfortable stay or a hotel owner seeking a platform to manage your property effectively, this project aims to meet your needs.
-]
+ *The Laravel Hotel Booking project aims to provide a convenient and enjoyable experience for both users and hotel owners in the hotel booking process. It's built on the Laravel framework, ensuring a robust and secure application. Whether you're a traveler looking for a comfortable stay or a hotel owner seeking a platform to manage your property effectively, this project aims to meet your needs*.
 
-# Laravel Hotel Booking Project
-
-This Laravel project is a hotel booking system that allows users to search, view, and book rooms in various hotels. Hotel owners can manage their properties, room availability, and view bookings.
 
 ## Features
 
